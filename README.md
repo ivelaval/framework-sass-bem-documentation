@@ -1,4 +1,4 @@
-zerw.css-web-template
+zerw.css Documentation
 =====================
 
 Web template for zerw.css framework
