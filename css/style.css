@@ -739,6 +739,7 @@ footer {
 }
 
 .addon--3d {
+  border: -1px solid transparent;
   border-width: 0em 0.07143em 0.28571em 0.07143em;
 }
 
@@ -750,6 +751,11 @@ footer {
 .addon--fluid {
   display: block;
   width: 100%;
+}
+
+.addon--without-fluid {
+  display: inline-block;
+  width: inherit;
 }
 
 [data-icon]:before, [class^="icon__"]:before,
@@ -4190,6 +4196,7 @@ footer {
 }
 
 .icon--3d {
+  border: -1px solid transparent;
   border-width: 0em 0.07143em 0.28571em 0.07143em;
 }
 
@@ -4215,6 +4222,7 @@ footer {
 }
 
 .icon__round--3d {
+  border: -1px solid transparent;
   border-width: 0em 0.07143em 0.28571em 0.07143em;
 }
 
@@ -4370,6 +4378,7 @@ footer {
 }
 
 .alert--3d {
+  border: -1px solid transparent;
   border-width: 0em 0.07143em 0.28571em 0.07143em;
 }
 
@@ -4381,6 +4390,11 @@ footer {
 .alert--fluid {
   display: block;
   width: 100%;
+}
+
+.alert--without-fluid {
+  display: inline-block;
+  width: inherit;
 }
 
 .badge, .badge__float[data-badge]:after {
@@ -4565,6 +4579,7 @@ footer {
 }
 
 .badge--3d {
+  border: -1px solid transparent;
   border-width: 0em 0.07143em 0.28571em 0.07143em;
 }
 
@@ -4576,6 +4591,11 @@ footer {
 .badge--fluid {
   display: block;
   width: 100%;
+}
+
+.badge--without-fluid {
+  display: inline-block;
+  width: inherit;
 }
 
 .breadcrumb {
@@ -4590,6 +4610,7 @@ footer {
 .breadcrumb {
   border-radius: 4px;
   background-clip: padding-box;
+  border: -1px solid transparent;
   border-width: 0em 0.07143em 0.28571em 0.07143em;
 }
 
@@ -4820,6 +4841,7 @@ footer {
 }
 
 .breadcrumb--3d {
+  border: -1px solid transparent;
   border-width: 0em 0.07143em 0.28571em 0.07143em;
 }
 
@@ -4831,6 +4853,11 @@ footer {
 .breadcrumb--fluid {
   display: block;
   width: 100%;
+}
+
+.breadcrumb--without-fluid {
+  display: inline-block;
+  width: inherit;
 }
 
 .button {
@@ -5029,6 +5056,7 @@ footer {
 }
 
 .button--3d {
+  border: -1px solid transparent;
   border-width: 0em 0.07143em 0.28571em 0.07143em;
 }
 
@@ -5040,6 +5068,11 @@ footer {
 .button--fluid {
   display: block;
   width: 100%;
+}
+
+.button--without-fluid {
+  display: inline-block;
+  width: inherit;
 }
 
 .form__input, .form__textarea, .form__select {
@@ -5279,14 +5312,29 @@ footer {
   width: 100%;
 }
 
+.form__input--without-fluid {
+  display: inline-block;
+  width: inherit;
+}
+
 .form__select--fluid {
   display: block;
   width: 100%;
 }
 
+.form__select--without-fluid {
+  display: inline-block;
+  width: inherit;
+}
+
 .form__element--fluid {
   display: block;
   width: 100%;
+}
+
+.form__element--without-fluid {
+  display: inline-block;
+  width: inherit;
 }
 
 .image {
@@ -5454,6 +5502,7 @@ footer {
 }
 
 .label--3d {
+  border: -1px solid transparent;
   border-width: 0em 0.07143em 0.28571em 0.07143em;
 }
 
@@ -5465,6 +5514,11 @@ footer {
 .label--fluid {
   display: block;
   width: 100%;
+}
+
+.label--without-fluid {
+  display: inline-block;
+  width: inherit;
 }
 
 *,
@@ -7444,6 +7498,7 @@ footer {
 }
 
 .table--3d {
+  border: -1px solid transparent;
   border-width: 0em 0.07143em 0.28571em 0.07143em;
 }
 
@@ -7455,6 +7510,11 @@ footer {
 .table--fluid {
   display: block;
   width: 100%;
+}
+
+.table--without-fluid {
+  display: inline-block;
+  width: inherit;
 }
 
 .text {
